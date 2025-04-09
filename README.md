@@ -2,4 +2,4 @@
 
 
 
-Website Live Now 👉 <a href="https://ws-cube-tech-site-officialsurajarya.vercel.app/">Skatter</a>
+Website Live Now 👉 <a href="https://ws-cube-tech-site-officialsurajarya.vercel.app/">WsCubeTech</a>

@@ -2,17 +2,19 @@
     font-family: "Inter", sans-serif;
 }
 
+.home-content li {
+    list-style: none;
+}
 
+.home-content li i,
+.home-content span {
+    color: rgb(0, 162, 255) ;
+}
 
-
-
-
-
-
-
-
-
-
+.home-content p,
+.home-content li {
+    font-size: 1.2rem;
+}
 
 
 
@@ -93,6 +95,15 @@
         display: flex;
         justify-content: center !important;
         margin-bottom: 5px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .home-content p,
+    .home-content li {
+        font-size: 1rem;
     }
 }
 
