@@ -16,12 +16,20 @@
     font-size: 1.2rem;
 }
 
+.btn-book-down {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
 
+.btn-book-down button {
+    width: 40%;
+}
 
-
-
-
-
+.btn-blue-grad {
+    color: white;
+    background: linear-gradient(to right, #0acefe, #2699fb) ;
+}
 
 
 
@@ -105,10 +113,29 @@
     .home-content li {
         font-size: 1rem;
     }
+
+    .btn-book-down {
+        flex-direction: column;
+    }
+
+    .btn-book-down button {
+        width: 100%;
+    }
 }
 
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1170px;
     }
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
 }
